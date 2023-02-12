@@ -169,7 +169,7 @@
   AuthVariableLib|MdeModulePkg/Library/AuthVariableLibNull/AuthVariableLibNull.inf
   VarCheckLib|MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf
 
-  SerialPortLib|MdeModulePkg/Library/BaseSerialPortLib16550/BaseSerialPortLib16550.inf
+  SerialPortLib|Tegra30Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
 
 [LibraryClasses.common.SEC]
   HobLib|EmbeddedPkg/Library/PrePiHobLib/PrePiHobLib.inf

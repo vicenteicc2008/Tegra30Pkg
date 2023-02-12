@@ -28,7 +28,7 @@
   EmbeddedPkg/EmbeddedPkg.dec
   ArmPkg/ArmPkg.dec
   ArmPlatformPkg/ArmPlatformPkg.dec
-  Tegra30Pkg/Tegra30.dec
+  Tegra30Pkg/Tegra30Pkg.dec
 
 [LibraryClasses]
   ArmLib
@@ -57,7 +57,7 @@
   gEmbeddedTokenSpaceGuid.PcdDmaDeviceOffset
   gArmTokenSpaceGuid.PcdSystemMemoryBase
   gArmTokenSpaceGuid.PcdSystemMemorySize
-  gNintendoSwitchPkgTokenSpaceGuid.PcdTrustZoneCarveoutSize
+  gTegra30PkgTokenSpaceGuid.PcdTrustZoneCarveoutSize
 
 [Ppis]
   gArmMpCoreInfoPpiGuid

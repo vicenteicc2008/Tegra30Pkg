@@ -16,3 +16,5 @@
   gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1280|UINT32|0x100
   gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|800|UINT32|0x101
   gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x102
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1280|UINT32|0x100
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|800|UINT32|0x101

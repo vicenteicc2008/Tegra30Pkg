@@ -1,0 +1,30 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = FrameBufferSerialPortLib
+  MODULE_TYPE    = BASE
+  VERSION_STRING = 1.0
+  LIBRARY_CLASS  = SerialPortLib
+
+[Sources.common]
+  FrameBufferSerialPortLib.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
+  Tegra30Pkg/Tegra30Pkg.dec
+
+[LibraryClasses]
+  ArmLib
+  PcdLib
+  IoLib
+  HobLib
+  CompilerIntrinsicsLib
+  CacheMaintenanceLib
+
+[Pcd]
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferAddress
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferWidth
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferHeight
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth
+  gTegra30PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight

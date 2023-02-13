@@ -1,4 +1,4 @@
-|[Defines]
+[Defines]
   DEC_SPECIFICATION              = 0x00010005
   PACKAGE_NAME                   = Tegra30Pkg
   PACKAGE_GUID                   = cd560434-f88c-4e47-971b-152fdbfd18df

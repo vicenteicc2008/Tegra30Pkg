@@ -44,17 +44,13 @@
 [Sources.ARM]
   ArmPlatformHelper.S
 
-[BuildOptions.AARCH64]
+[BuildOptions.ARM]
   GCC:*_*_*_CC_FLAGS = -Wno-unused-function -Wno-unused-variable
 
 [FixedPcd]
-  gArmTokenSpaceGuid.PcdFdBaseAddress
-  gArmTokenSpaceGuid.PcdFvBaseAddress
   gArmPlatformTokenSpaceGuid.PcdCoreCount
   gArmTokenSpaceGuid.PcdArmPrimaryCoreMask
   gArmTokenSpaceGuid.PcdArmPrimaryCore
-  gArmTokenSpaceGuid.PcdFdSize
-  gEmbeddedTokenSpaceGuid.PcdDmaDeviceOffset
   gArmTokenSpaceGuid.PcdSystemMemoryBase
   gArmTokenSpaceGuid.PcdSystemMemorySize
   gTegra30PkgTokenSpaceGuid.PcdTrustZoneCarveoutSize

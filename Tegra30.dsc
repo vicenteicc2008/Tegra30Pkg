@@ -87,6 +87,7 @@
 
   gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|0x00C40000
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x40000000         # 1GB
+  gArmTokenSpaceGuid.PcdSystemMemoryBase|0x00000000
   gArmTokenSpaceGuid.PcdArmArchTimerFreqInHz|19200000
   gArmTokenSpaceGuid.PcdArmArchTimerSecIntrNum|29
   gArmTokenSpaceGuid.PcdArmArchTimerIntrNum|30

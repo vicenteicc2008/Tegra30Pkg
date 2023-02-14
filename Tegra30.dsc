@@ -94,7 +94,7 @@
   gEmbeddedTokenSpaceGuid.PcdInterruptBaseAddress|0x09bc0000
   gArmTokenSpaceGuid.PcdGicDistributorBase|0x09bc0000
   gArmTokenSpaceGuid.PcdGicInterruptInterfaceBase|0x09c00000
-  # gArmPlatformTokenSpaceGuid.PcdCoreCount|4
+  gArmPlatformTokenSpaceGuid.PcdCoreCount|4
 
   # TrustZone carveout, 14MB below slot 1 top
   gTegra30PkgTokenSpaceGuid.PcdTrustZoneCarveoutSize|0xe00000

@@ -1,5 +1,5 @@
 # Tegra30Pkg
-EDK2 for Tegra 3 Devices
+EDK2 for Android Tegra 3 Devices
 
 ## current status
 WORK IN PROGRESS
